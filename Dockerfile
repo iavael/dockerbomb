@@ -1,6 +1,6 @@
 FROM docker:latest
 
-LABEL Description="This image is an example of docker bomb"
+LABEL org.opencontainers.image.description "This image is an example of docker bomb"
 
 ADD trigger.sh .
 
